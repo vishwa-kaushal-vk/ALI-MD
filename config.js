@@ -55,13 +55,13 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
-ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
+ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
-DELETE_LINK: process.env.DELETE_LINK || "true",
+DELETE_LINK: process.env.DELETE_LINK || "false",
 // make anti link true,false for groups 
-ANTI_LINK: process.env.ANTI_LINK || "true",
+ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
