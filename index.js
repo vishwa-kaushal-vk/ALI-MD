@@ -46,7 +46,7 @@ const {
   const mode = config.MODE
   const online = config.ALWAYS_ONLINE
   const status = config.AUTO_STATUS_SEEN
-  const ownerNumber = ['923003588997']
+  const ownerNumber = ['94764746599']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -354,7 +354,7 @@ conn.ev.on('messages.upsert', async (msg) => {
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("923003588997") && !isReact) {
+if (senderNumber.includes("947644746599") && !isReact) {
   const reactions = ["👑", "🫜", "🫆", "🫩", "🪾", "🪉", "🪏", "🫟"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
